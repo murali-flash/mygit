@@ -1,0 +1,67 @@
+/* Base styles */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 1em;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    position: absolute;
+}
+
+p {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    margin-right: 1em;
+    margin-left: 1em;
+    background-color: grey;
+    padding:2em 2em;
+    text-align: justify;
+}
+
+.title1 {
+    background-color: pink;
+   
+}
+
+.title2 {
+    background-color: red;
+    color: white;
+}
+
+.title3 {
+    background-color: lightgoldenrodyellow;
+}
+
+.title1, .title2, .title3 {
+
+    border: solid black 1px;
+    float: right;
+    padding: 0 1.5em;
+    position: relative;
+    right: 16px;
+}
+
+/* Media styles */
+
+@media (min-width:992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33%;
+    }  
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+}
